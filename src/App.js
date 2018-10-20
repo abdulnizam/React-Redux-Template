@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './css/App.css'
 
 import IndexText from './templates/index'
 
@@ -19,7 +18,7 @@ const allStoreEnhancers = compose(
 
 const store = createStore(
                           allReducers, 
-                          { products: [{name: 'iphone'}], user: 'abdul'},
+                          { products: [{name: 'iphone'}, {name: 'Nokia'}, {name: 'Samsung'}], user: 'abdul'},
                           allStoreEnhancers
                           )
   

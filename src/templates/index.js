@@ -1,7 +1,10 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
-import '../scss/_style.scss';
-import '../scss/_queries.scss';
+
+// import '../scss/_style.scss';
+// import '../scss/_queries.scss';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
@@ -27,9 +30,20 @@ class IndexText extends PureComponent {
     console.log(this.props)
 
     return (
-      <div className="hero-text-box">
-          <input type="text" onChange={this.onUpdateUser} placeholder="Enter your Plate Number ..." required />
-          <div>{this.props.user}</div>
+      <div className="container">
+        <h2>React + Redux Template</h2>
+        <p>Here the example template for react + redux.</p>
+        <div className="form-group">
+          <input type="text" onChange={this.onUpdateUser} className="form-control" id="usr" />
+          <label for="usr">{this.props.user}</label>
+        </div>
+    
+
+        <ul className="list-group">
+        {this.props.products.map(item => (
+            <li className="list-group-item">{item.name}</li>
+          ))}
+        </ul>
       </div>
     );
   }
