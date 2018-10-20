@@ -1,0 +1,110 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+   
+    .hero-text-box {
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+        text-align: center; 
+      
+    }
+    
+    h1 {                    
+            font-size: 160%;
+            font-weight: 400; 
+            line-height: 40px; 
+             
+    }
+    
+ 
+    
+    
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    
+    .hero-text-box {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+        text-align: center;        
+    }
+    
+    h1 {                    
+            font-size: 160%;
+            font-weight: 400; 
+            line-height: 40px; 
+             
+    }
+
+    .logo {
+            height: auto;
+            width: 400px;
+            margin-top: 130px;
+    }
+    
+    .result_para {
+    
+
+            margin-top: 0px;
+            line-height: 45px;
+    }
+    
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+     .hero-text-box {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+        text-align: center;        
+    }
+    
+    h1 {                    
+        font-size: 140%;
+        font-weight: 300; 
+        line-height: 30px;          
+             
+    }
+    
+      .logo {
+            height: auto;
+            width: 300px;
+            margin-top: 130px;
+    }  
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    
+    .hero-text-box {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+        text-align: center;
+        
+    }
+    
+       h1 {                    
+            font-size: 130%;
+            font-weight: 300; 
+            line-height: 30px;         
+    }
+    
+    h2{
+        
+        line-height: 35px;
+    }
+          
+}
+

@@ -1,0 +1,204 @@
+/* ---------------------------------- */
+/* Basic Setup */
+/* ---------------------------------- */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+     background-color: #fff;
+     font-family: 'Lato','Arial', sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     text-rendering: optimizeLegibility;
+     
+}
+
+/* ---------------------------------- */
+/* Reusable Components */
+/* ---------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.vehicle_result {
+    
+    width: 100%;
+    height: auto;
+      
+}
+
+.result_para {
+    
+    font-size: 150%;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 45px;
+}
+
+/* ---- Headings ------ */
+
+h1 {
+    
+    margin: 0;
+    font-size: 200%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+    line-height: 55px;
+   
+}
+
+
+h2 {
+    
+    margin-top: 15px;
+    color: #fff;
+    font-size: 150%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+    line-height: 45px;
+   
+}
+
+/*---- app icons ----- */
+
+.appIcons {
+      
+    padding-top: 10%;
+
+}
+
+/*---- loader ----- */
+
+.loader {
+
+    margin-top: 40px;
+    width: 150px;
+    height: auto;
+ 
+}
+
+.back {
+    
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+   
+}
+
+.back img {
+    
+    width:40px;
+    height: auto;
+    vertical-align: bottom;
+    margin-right: 10px;   
+    
+}
+
+a:link, a:active, a:visited {
+    
+    color: #fff;
+    text-decoration: none;
+    transition: color 2.0s;
+    
+    
+}
+
+a:hover {
+    
+    color: #022E48;
+}
+
+button:active, button:visited {
+    
+    color: #fff;
+    text-decoration: none;
+    transition: color 2.0s;
+    
+    
+}
+
+button:hover {
+    cursor: pointer;
+    color: #022E48;
+}
+
+
+
+/* ---------------------------------- */
+/* header */
+/* ---------------------------------- */
+
+header {
+    
+    background-image: url(https://s3-eu-west-1.amazonaws.com/pay-images/1@2x.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);   
+    text-align: center;
+        
+}
+
+.logo {
+    height: auto;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* ---------------------------------- */
+/* buttons */
+/* ---------------------------------- */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    border-radius: 5px;    
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 30px;
+   
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+    background-color: #fff;
+    color: #FF8000;
+    transition: background-color 0.2s, color 0.2s;
+    
+}
+
+.btn-full:hover{
+    background-color:#022E48;
+    color:#fff;
+}
+
+   
+    
+      
+    
