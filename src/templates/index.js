@@ -19,10 +19,6 @@ class IndexText extends PureComponent {
     this.props.apiRequest()
   }
 
-  handleChange = event => {
-    this.props.textChange(event);
-  };
-
   onUpdateUser(event) {
     this.props.onUpdateUsers(event.target.value)
   }
